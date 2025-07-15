@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="jogo_adivinhacao.css">
+    <script src="jogo_adivinhacao.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Jogo de Adivinhação</h1>
+    </header>
+    <main>    
+        <h2>Neste Jogo de Adivinhação você terá que adivinhar qual o número secreto, não se preocupe, vou te dá algumas dicas na jornada.</h2>
+        <h2>O objetivo é adivinhar o número com o menor número de tentativas possível. Então vamos começar!!</h2>
+        <h2><i class="fas fa-trophy"></i> Boa sorte jogador!!</h2> 
+        
+        <form>
+            <input id="valor" type="number" placeholder="Digite um número"/>
+            <button type="button" onclick="chutar()"><i class="fas fa-bullseye"></i> Chutar</button>
+        </form>
+
+        <p id="dica"><i class="fas fa-lightbulb"></i> Dica: </p>
+        <p id="resultado"><i class="fas fa-flag-checkered"></i> Resultado: </p>
+        <p id="tentativas"><i class="fas fa-hourglass-half"></i> Tentativas restantes: </p>
+    </main>
+</body>
+</html>
+
